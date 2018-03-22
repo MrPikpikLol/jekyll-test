@@ -24,8 +24,7 @@ body {
   background: linear-gradient(to top, #73c8a9, #373b44);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh; }
+  background-repeat: no-repeat; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm

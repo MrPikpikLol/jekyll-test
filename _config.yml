@@ -15,7 +15,7 @@ defaults:
     layout: post
 email: picarddamien@outlook.com
 description: ''
-baseurl: 
+baseurl: 'jekyll-test'
 url: ''
 twitter_username: CuicuiPikpik
 github_username: MrPikpikLol
