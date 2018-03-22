@@ -222,7 +222,7 @@ table {
   border-bottom: 2px solid #232e2b;
   min-height: 55.95px;
   height: 100vh;
-  background-image: url(/img/header.jpg);
+  background-image: url(../../img/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
