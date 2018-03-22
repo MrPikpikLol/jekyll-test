@@ -1,7 +1,7 @@
 /**
  * Reset some basic elements
  */
-/* line 4, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 4, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -11,9 +11,9 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-/* line 16, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 16, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 body {
-  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Ubuntu', sans-serif;
   color: #111;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -30,7 +30,7 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-/* line 37, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 37, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -40,7 +40,7 @@ ul, ol, dl, figure,
 /**
  * `main` element
  */
-/* line 49, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 49, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 main {
   display: block;
   /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
@@ -48,7 +48,7 @@ main {
 /**
  * Images
  */
-/* line 58, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 58, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 img {
   max-width: 100%;
   vertical-align: middle; }
@@ -56,22 +56,22 @@ img {
 /**
  * Figures
  */
-/* line 68, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 68, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 figure > img {
   display: block; }
 
-/* line 72, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 72, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 figcaption {
   font-size: 14px; }
 
 /**
  * Lists
  */
-/* line 81, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 81, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 ul, ol {
   margin-left: 30px; }
 
-/* line 86, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 86, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 li > ul,
 li > ol {
   margin-bottom: 0; }
@@ -79,35 +79,35 @@ li > ol {
 /**
  * Headings
  */
-/* line 97, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 97, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
 /**
  * Links
  */
-/* line 106, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 106, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 a {
   color: #060607;
   text-decoration: none; }
-  /* line 110, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+  /* line 110, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
   a:visited {
     color: black; }
-  /* line 114, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+  /* line 114, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
   a:hover {
     color: #111;
     text-decoration: underline; }
-  /* line 119, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+  /* line 119, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
   .social-media-list a:hover {
     text-decoration: none; }
-    /* line 122, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+    /* line 122, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
     .social-media-list a:hover .username {
       text-decoration: underline; }
 
 /**
  * Blockquotes
  */
-/* line 132, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 132, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 blockquote {
   color: #828282;
   border-left: 4px solid #e8e8e8;
@@ -115,14 +115,14 @@ blockquote {
   font-size: 18px;
   letter-spacing: -1px;
   font-style: italic; }
-  /* line 140, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+  /* line 140, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
   blockquote > :last-child {
     margin-bottom: 0; }
 
 /**
  * Code formatting
  */
-/* line 150, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 150, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 pre,
 code {
   font-size: 15px;
@@ -130,15 +130,15 @@ code {
   border-radius: 3px;
   background-color: #eef; }
 
-/* line 158, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 158, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 code {
   padding: 1px 5px; }
 
-/* line 162, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 162, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 pre {
   padding: 8px 12px;
   overflow-x: auto; }
-  /* line 166, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+  /* line 166, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
   pre > code {
     border: 0;
     padding-right: 0;
@@ -147,7 +147,7 @@ pre {
 /**
  * Wrapper
  */
-/* line 178, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 178, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 .wrapper {
   max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
@@ -156,7 +156,7 @@ pre {
   padding-right: 30px;
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
-    /* line 178, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+    /* line 178, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
     .wrapper {
       max-width: -webkit-calc(800px - (30px));
       max-width: calc(800px - (30px));
@@ -166,7 +166,7 @@ pre {
 /**
  * Clearfix
  */
-/* line 200, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 200, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 .wrapper:after, .footer-col-wrapper:after {
   content: "";
   display: table;
@@ -175,7 +175,7 @@ pre {
 /**
  * Icons
  */
-/* line 212, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 212, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 .svg-icon {
   width: 20px;
   height: 20px;
@@ -184,14 +184,14 @@ pre {
   padding-right: 5px;
   vertical-align: text-top; }
 
-/* line 222, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 222, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 .social-media-list li + li {
   padding-top: 5px; }
 
 /**
  * Tables
  */
-/* line 232, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+/* line 232, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
 table {
   margin-bottom: 30px;
   width: 100%;
@@ -199,34 +199,37 @@ table {
   color: #3f3f3f;
   border-collapse: collapse;
   border: 1px solid #e8e8e8; }
-  /* line 240, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+  /* line 240, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
   table tr:nth-child(even) {
     background-color: #f7f7f7; }
-  /* line 244, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+  /* line 244, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
   table th, table td {
     padding: 10px 15px; }
-  /* line 247, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+  /* line 247, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
   table th {
     background-color: #f0f0f0;
     border: 1px solid #dedede;
     border-bottom-color: #c9c9c9; }
-  /* line 252, /home/arinfo/Documents/Blog/_sass/minima/_base.scss */
+  /* line 252, /home/arinfo/Documents/jekyll-test/_sass/minima/_base.scss */
   table td {
     border: 1px solid #e8e8e8; }
 
 /**
  * Site header
  */
-/* line 5, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 5, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .site-header {
   border-top: 1px solid #232e2b;
   border-bottom: 2px solid #232e2b;
   min-height: 55.95px;
-  height: 75px;
-  background-color: antiquewhite;
+  height: 100vh;
+  background-image: url(/img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   position: relative; }
 
-/* line 17, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 21, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .site-title {
   font-size: 26px;
   font-weight: 300;
@@ -234,29 +237,40 @@ table {
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left; }
-  /* line 25, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+  /* line 29, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
   .site-title, .site-title:visited {
-    color: #424242; }
+    color: white; }
 
-/* line 31, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 35, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .site-nav {
   float: right;
   line-height: 54px; }
-  /* line 35, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+  /* line 39, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
   .site-nav .nav-trigger {
     display: none; }
-  /* line 39, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+  /* line 43, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
   .site-nav .menu-icon {
     display: none; }
-  /* line 43, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+  /* line 47, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
   .site-nav .page-link {
-    color: #111;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #81c7bd;
+    background-color: #fff;
+    border: 1px solid #81c7bd;
+    border-radius: 25px;
+    padding: 5px;
     line-height: 1.5; }
-    /* line 48, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+    /* line 58, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
+  /* line 62, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
+  .site-nav .page-link:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white; }
   @media screen and (max-width: 600px) {
-    /* line 31, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+    /* line 35, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
     .site-nav {
       position: absolute;
       top: 9px;
@@ -265,7 +279,7 @@ table {
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
-      /* line 62, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+      /* line 76, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
       .site-nav label[for="nav-trigger"] {
         display: block;
         float: right;
@@ -273,7 +287,7 @@ table {
         height: 36px;
         z-index: 2;
         cursor: pointer; }
-      /* line 71, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+      /* line 85, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
       .site-nav .menu-icon {
         display: block;
         float: right;
@@ -282,88 +296,88 @@ table {
         line-height: 0;
         padding-top: 10px;
         text-align: center; }
-        /* line 80, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+        /* line 94, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
         .site-nav .menu-icon > svg path {
           fill: #424242; }
-      /* line 85, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+      /* line 99, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
       .site-nav input ~ .trigger {
         clear: both;
         display: none; }
-      /* line 90, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+      /* line 104, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
       .site-nav input:checked ~ .trigger {
         display: block;
         padding-bottom: 5px; }
-      /* line 95, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+      /* line 109, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
       .site-nav .page-link {
         display: block;
         padding: 5px 10px;
         margin-left: 20px; }
-        /* line 99, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+        /* line 113, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
         .site-nav .page-link:not(:last-child) {
           margin-right: 0; } }
 
 /**
  * Site footer
  */
-/* line 112, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 126, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .site-footer {
   border-top: 1px solid #94dbc8;
   padding: 30px 0; }
 
-/* line 118, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 132, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .footer-heading {
   font-size: 18px;
   margin-bottom: 15px; }
 
-/* line 123, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 137, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .contact-list,
 .social-media-list {
   list-style: none;
   margin-left: 0; }
 
-/* line 129, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 143, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .footer-col-wrapper {
   font-size: 15px;
   color: #283632;
   margin-left: -15px; }
 
-/* line 136, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 150, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .footer-col {
   float: left;
   margin-bottom: 15px;
   padding-left: 15px; }
 
-/* line 142, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 156, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .footer-col-1 {
   font-size: 18px;
   width: -webkit-calc(35% - (30px / 2));
   width: calc(35% - (30px / 2)); }
 
-/* line 148, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 162, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .footer-col-2 {
   font-size: 18px;
   float: right;
   width: -webkit-calc(20% - (30px / 2));
   width: calc(20% - (30px / 2)); }
 
-/* line 155, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 169, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .footer-col-3 {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
 @media screen and (max-width: 800px) {
-  /* line 161, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+  /* line 175, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (30px / 2));
     width: calc(50% - (30px / 2)); }
-  /* line 167, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+  /* line 181, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
   .footer-col-3 {
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
 
 @media screen and (max-width: 600px) {
-  /* line 174, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+  /* line 188, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (30px / 2));
@@ -372,37 +386,38 @@ table {
 /**
  * Page content
  */
-/* line 186, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 200, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .page-content {
   padding: 30px 0;
-  height: 500px; }
+  height: 100vh; }
 
-/* line 192, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 206, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .page-heading {
   font-size: 32px; }
 
-/* line 196, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 210, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .post-list-heading {
   color: burlywood;
-  font-size: 28px; }
+  font-size: 30px;
+  text-transform: capitalize; }
 
-/* line 201, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 216, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .post-list {
   margin-left: 0;
   list-style: none;
   display: inline-flex; }
-  /* line 206, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+  /* line 221, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
   .post-list > li {
     margin-bottom: 30px;
     padding-left: 100px;
     text-align: center; }
 
-/* line 213, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 228, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .post-meta {
   font-size: 20px;
   color: navajowhite; }
 
-/* line 218, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 234, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .post-link {
   display: block;
   font-size: 24px; }
@@ -410,244 +425,244 @@ table {
 /**
  * Posts
  */
-/* line 228, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 244, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .post-header {
   margin-bottom: 30px; }
 
-/* line 232, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 248, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .post-title {
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
-    /* line 232, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+    /* line 248, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
     .post-title {
       font-size: 36px; } }
 
-/* line 242, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+/* line 258, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
 .post-content {
   margin-bottom: 30px; }
-  /* line 245, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+  /* line 261, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {
-      /* line 245, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+      /* line 261, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
       .post-content h2 {
         font-size: 28px; } }
-  /* line 253, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+  /* line 269, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
   .post-content h3 {
     font-size: 26px; }
     @media screen and (max-width: 800px) {
-      /* line 253, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+      /* line 269, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
       .post-content h3 {
         font-size: 22px; } }
-  /* line 261, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+  /* line 277, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
   .post-content h4 {
     font-size: 20px; }
     @media screen and (max-width: 800px) {
-      /* line 261, /home/arinfo/Documents/Blog/_sass/minima/_layout.scss */
+      /* line 277, /home/arinfo/Documents/jekyll-test/_sass/minima/_layout.scss */
       .post-content h4 {
         font-size: 18px; } }
 
 /**
  * Syntax highlighting styles
  */
-/* line 4, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+/* line 4, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
 .highlight {
   background: #fff; }
-  /* line 8, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 8, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlighter-rouge .highlight {
     background: #eef; }
-  /* line 12, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 12, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .c {
     color: #998;
     font-style: italic; }
-  /* line 13, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 13, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .err {
     color: #a61717;
     background-color: #e3d2d2; }
-  /* line 14, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 14, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .k {
     font-weight: bold; }
-  /* line 15, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 15, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .o {
     font-weight: bold; }
-  /* line 16, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 16, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .cm {
     color: #998;
     font-style: italic; }
-  /* line 17, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 17, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .cp {
     color: #999;
     font-weight: bold; }
-  /* line 18, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 18, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .c1 {
     color: #998;
     font-style: italic; }
-  /* line 19, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 19, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .cs {
     color: #999;
     font-weight: bold;
     font-style: italic; }
-  /* line 20, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 20, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .gd {
     color: #000;
     background-color: #fdd; }
-  /* line 21, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 21, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .gd .x {
     color: #000;
     background-color: #faa; }
-  /* line 22, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 22, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .ge {
     font-style: italic; }
-  /* line 23, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 23, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .gr {
     color: #a00; }
-  /* line 24, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 24, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .gh {
     color: #999; }
-  /* line 25, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 25, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .gi {
     color: #000;
     background-color: #dfd; }
-  /* line 26, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 26, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .gi .x {
     color: #000;
     background-color: #afa; }
-  /* line 27, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 27, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .go {
     color: #888; }
-  /* line 28, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 28, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .gp {
     color: #555; }
-  /* line 29, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 29, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .gs {
     font-weight: bold; }
-  /* line 30, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 30, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .gu {
     color: #aaa; }
-  /* line 31, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 31, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .gt {
     color: #a00; }
-  /* line 32, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 32, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .kc {
     font-weight: bold; }
-  /* line 33, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 33, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .kd {
     font-weight: bold; }
-  /* line 34, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 34, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .kp {
     font-weight: bold; }
-  /* line 35, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 35, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .kr {
     font-weight: bold; }
-  /* line 36, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 36, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .kt {
     color: #458;
     font-weight: bold; }
-  /* line 37, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 37, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .m {
     color: #099; }
-  /* line 38, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 38, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .s {
     color: #d14; }
-  /* line 39, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 39, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .na {
     color: #008080; }
-  /* line 40, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 40, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .nb {
     color: #0086B3; }
-  /* line 41, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 41, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .nc {
     color: #458;
     font-weight: bold; }
-  /* line 42, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 42, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .no {
     color: #008080; }
-  /* line 43, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 43, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .ni {
     color: #800080; }
-  /* line 44, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 44, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .ne {
     color: #900;
     font-weight: bold; }
-  /* line 45, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 45, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .nf {
     color: #900;
     font-weight: bold; }
-  /* line 46, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 46, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .nn {
     color: #555; }
-  /* line 47, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 47, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .nt {
     color: #000080; }
-  /* line 48, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 48, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .nv {
     color: #008080; }
-  /* line 49, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 49, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .ow {
     font-weight: bold; }
-  /* line 50, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 50, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .w {
     color: #bbb; }
-  /* line 51, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 51, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .mf {
     color: #099; }
-  /* line 52, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 52, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .mh {
     color: #099; }
-  /* line 53, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 53, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .mi {
     color: #099; }
-  /* line 54, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 54, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .mo {
     color: #099; }
-  /* line 55, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 55, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .sb {
     color: #d14; }
-  /* line 56, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 56, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .sc {
     color: #d14; }
-  /* line 57, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 57, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .sd {
     color: #d14; }
-  /* line 58, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 58, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .s2 {
     color: #d14; }
-  /* line 59, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 59, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .se {
     color: #d14; }
-  /* line 60, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 60, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .sh {
     color: #d14; }
-  /* line 61, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 61, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .si {
     color: #d14; }
-  /* line 62, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 62, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .sx {
     color: #d14; }
-  /* line 63, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 63, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .sr {
     color: #009926; }
-  /* line 64, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 64, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .s1 {
     color: #d14; }
-  /* line 65, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 65, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .ss {
     color: #990073; }
-  /* line 66, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 66, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .bp {
     color: #999; }
-  /* line 67, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 67, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .vc {
     color: #008080; }
-  /* line 68, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 68, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .vg {
     color: #008080; }
-  /* line 69, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 69, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .vi {
     color: #008080; }
-  /* line 70, /home/arinfo/Documents/Blog/_sass/minima/_syntax-highlighting.scss */
+  /* line 70, /home/arinfo/Documents/jekyll-test/_sass/minima/_syntax-highlighting.scss */
   .highlight .il {
     color: #099; }
 

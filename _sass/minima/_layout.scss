@@ -6,8 +6,12 @@
   border-top: 1px solid #232e2b;
   border-bottom: 2px solid #232e2b;
   min-height: $spacing-unit * 1.865;
-    height: 75px;
-    background-color: antiquewhite;
+    height: 100vh;
+    background-image: url(/img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
      
 
   // Positioning context for the mobile navigation icon
@@ -24,7 +28,7 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: white;
   }
 }
 
@@ -41,7 +45,13 @@
   }
 
   .page-link {
-    color: $text-color;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #81c7bd;
+      background-color: #fff;
+    border: 1px solid #81c7bd;
+    border-radius: 25px;
+    padding: 5px;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -49,7 +59,11 @@
       margin-right: 20px;
     }
   }
-
+    .page-link:hover{
+        text-decoration: none;
+        color: black;
+        background-color: white;
+    }
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
@@ -186,7 +200,7 @@
 .page-content {
 
   padding: $spacing-unit 0;
-    height: 500px;
+    height: 100vh;
 }
 
 .page-heading {
@@ -195,7 +209,8 @@
 
 .post-list-heading {
     color: burlywood;
-  @include relative-font-size(1.75);
+    font-size: 30px;
+    text-transform: capitalize;
 }
 
 .post-list {
@@ -212,6 +227,7 @@
 
 .post-meta {
   font-size: 20px;
+  
   color: navajowhite;
 }
 
